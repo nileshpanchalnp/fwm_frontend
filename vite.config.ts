@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => ({
   // 'base' must match your production subdirectory
   // Dev: '/'  →  http://localhost:5173/
   // Prod: '/fwm/'  →  https://client.sattvion.com/fwm/
-  base: command === 'serve' ? '/fwm/' : '/fwm/',
+  base: command === 'serve' ? '/fwm/' : '/',
 
   plugins: [react()],
 
