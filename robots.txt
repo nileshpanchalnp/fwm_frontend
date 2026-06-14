@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /fwm/
+Allow: /fwm/courses
+Allow: /fwm/terms
+Allow: /fwm/privacy
+
+# Block search engine crawlers from scraping or indexing protected workspace environments
+Disallow: /fwm/dashboard/
+Disallow: /fwm/admin/
+Disallow: /fwm/login
+Disallow: /fwm/register
+Disallow: /fwm/reset-password
+
+Sitemap: https://yourdomain.com/sitemap.xml
